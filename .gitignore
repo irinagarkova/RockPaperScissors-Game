@@ -1,0 +1,65 @@
+# Ignore build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider / JetBrains settings
+.idea/
+
+# Build results of Visual Studio
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# .NET Core generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & temp files
+*.tmp
+*.bak
+*.ncb
+*.cache
+*.log
+*.orig
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Visual Studio Code settings
+.vscode/
+
+# User secrets
+*.userSecrets/
+
+# DotCover
+.idea/
+*.dotCover
+
+# Rider-specific files
+.idea/
+
+# Visual Studio for Mac
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
